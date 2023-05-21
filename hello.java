@@ -4,12 +4,13 @@ class Hello {
     System.out.println(hello());
     System.out.println("gitのお勉強");
     System.out.println("2+3");
+    System.out.println("テストブランチ用のやつ");
   }
 
   public static String hello() {
     return "hello";
 
-    
+
   }
-  
+
 }
