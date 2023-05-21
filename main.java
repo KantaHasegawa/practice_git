@@ -1,16 +1,13 @@
 import java.util.Scanner;
-
+import carculater.carculater;
 public class main {
   public static void main(String[] args) {
     Scanner scanner=new Scanner(System.in);
-
     System.out.println("整数を入力してください");
-    int num1=scanner.nextInt();
-    int num2=scanner.nextInt();
-  
-    int result = num1 + num2;
-    System.out.println(result);
-
+    int arg1=scanner.nextInt();
+    int arg2=scanner.nextInt();
+    carculater carculater = new carculater();
+    System.out.println(carculater.carculate(arg1, arg2));
     scanner.close();
   }
 }
