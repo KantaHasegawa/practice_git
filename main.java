@@ -1,11 +1,16 @@
+import java.util.Scanner;
+
 public class main {
   public static void main(String[] args) {
-    System.out.println("計算を始めます");
-    int num1;
-    int num2;
-    num1 = 10;
-    num2 = 20;
+    Scanner scanner=new Scanner(System.in);
+
+    System.out.println("整数を入力してください");
+    int num1=scanner.nextInt();
+    int num2=scanner.nextInt();
+  
     int result = num1 + num2;
     System.out.println(result);
+
+    scanner.close();
   }
 }
