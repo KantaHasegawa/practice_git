@@ -3,9 +3,13 @@ class Hello {
     System.out.println("Hello World");
     System.out.println(hello());
     System.out.println("gitのお勉強");
+    System.out.println("2+3");
   }
 
   public static String hello() {
     return "hello";
+
+    
   }
+  
 }
